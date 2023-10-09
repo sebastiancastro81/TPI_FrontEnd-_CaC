@@ -1,11 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: x-large;
 }
 
 .navbar {
     background-color: #343a40;
+    font-size: x-large;
+
 }
 
 /* CAROUSEL
@@ -24,9 +25,37 @@
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  margin-right: -6%;
+  margin-left: -5%;
 }
 
 .carousel-item {
   height: 37rem;
   min-height: 95vh;
+}
+
+
+/* CARDS 
+------------------------------------------------*/
+
+.img-card-1 { src: url(../media/img/steve.jpg); }
+.img-card-2 { background-image: url(../media/img/bill.jpg); }
+.img-card-3 { background-image: url(../media/img/ada.jpeg); }
+
+
+/* LUGAR 
+------------------------------------------------*/
+
+.bg-aside {
+  background-color: #343a40;
+
+}
+
+.btn-success {
+  background-color: limegreen!important;
+}
+
+#footer {
+  height: 15vh;
+  background-color: #153447;
 }
