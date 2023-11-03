@@ -52,10 +52,28 @@
 }
 
 .btn-success {
-  background-color: limegreen!important;
+  background-color: yellowgreen!important;
 }
 
 #footer {
   height: 15vh;
   background-color: #153447;
 }
+
+/* ESTILOS DE PAGINA comprar-tickets.html */
+
+#tarjetas {
+  min-width: 45vw;
+  max-width: 60vw;
+  
+}
+
+#tarjetas, #formulario p {
+  font-size: x-large;
+}
+
+#formulario {
+  max-width: 60vw;
+}
+
+
