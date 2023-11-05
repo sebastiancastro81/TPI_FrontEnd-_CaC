@@ -8,7 +8,8 @@ const opcionElement = document.getElementById("selectCategoria");
 const cantidadElement = document.getElementById("inputCantidad");
 const btnResumen = document.getElementById("btnResumen");
 const btnBorrar = document.getElementById("btnBorrar");
-let totalElement = document.getElementById("textTotalAPagar")
+const formulario = document.getElementById("formulario");
+let totalElement = document.getElementById("textTotalAPagar");
 
 // const questionElement = document.querySelector("#question");
 
@@ -34,5 +35,11 @@ totalElement.textContent = "Total a Pagar: $" + ((precioEntrada - (precioEntrada
 
 });
 btnBorrar.addEventListener("click", () => {
-    window.location.reload();
+    console.log("Borrar formulario")
+    document.getElementById('inputNombre').value = '';
+    document.getElementById('inputApellido').value = '';
+    document.getElementById('inputEmail').value = '';
+    cantidadElement.value = '';
+    opcionElement.selectedIndex = 0; 
+    totalElement.textContent = "Total a Pagar: $"
 });
